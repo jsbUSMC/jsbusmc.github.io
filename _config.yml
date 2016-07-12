@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: jsbUSMC
+email: john.bissonette1@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Homepage for John S. Bissonette, a network administrator/system administrator,
+  IT professional, and prior service United States Marine. Beginnings of a 
+  personal website/blog/demo portal for projects and other related professional 
+  information.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
