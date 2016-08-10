@@ -1,3 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+rvm-installer
+rvm-installer.asc
+.vscode
