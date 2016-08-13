@@ -1,29 +1,50 @@
-# Site settings
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "https://jsbusmc.github.io" # the base hostname & protocol for your site.
+title: "jsbUSMC | John S. Bissonette"
 
-title: jsbUSMC | John S. Bissonette # Title of your site
-email: john.bissonette1@gmail.com # Your contant email
-author: John S. Bissonette
+paginate: 10 #articles per page
+paginate_path: /blog/page:num #makes pagination working
 
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jsbusmc.github.io" # the base hostname & protocol for your site
+#contacts
+git: "https://github.com/jsbUSMC"  #your github url here.
+stackoverflow: "http://stackoverflow.com/users/4743465/john-bissonette" #Add your stackoverflow url here.
+twitter: "https://twitter.com/DennisQua1d"  #Add your twitter url here.
+linkedin: "https://linkedin.com/in/john-bissonette"
 
-# Social links.
-# Replace the word 'example' with your username if you want to include the icon in the left sidebar
-# Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-twitter_username:     DennisQua1d  # Replace this with your Twitter username
-github_username:      jsbUSMC  # Replace this with your GitHub username
-linkedin_username:    john-bissonette  # Replace this with your LinkedIn username
-stackoverflow:
-  user_id: 4743465
-  username: john-bissonette
+#disqus comment
+disqus:
+    shortname: "test" #your disqus comment short name
 
-# Build settings
-markdown: kramdown
+#google analytics
+google:
+    tracking-id: "" #your tracking id here
 
-sass:
-  sass_dir: _sass
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
