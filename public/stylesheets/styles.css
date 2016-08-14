@@ -6,7 +6,7 @@ body {
   font: 14px/1.5 'Open Sans', sans-serif;
   color: #A3BFC6 ;
   font-weight: normal;
-  background: #222A30;
+  background: #2D3840;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -252,6 +252,10 @@ footer .right{
 
 #sitename{
   font-weight: 300;
+}
+
+a#sitename::hover {
+  color: #ffdd00;
 }
 
 mark, .mark {
