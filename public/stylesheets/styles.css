@@ -4,9 +4,9 @@ body {
   padding: 0px 0 20px 0px;
   margin: 0px;
   font: 14px/1.5 'Open Sans', sans-serif;
-  color: #A3BFC6 ;
+  color: #fff ;
   font-weight: normal;
-  background: #2D3840;
+  background: #2a2b30;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #EC4E3B;
+  color: #5c5edc;
   margin: 0 0 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -50,13 +50,13 @@ h3 {
 }
 
 a {
-  color: #49B1F7;
+  color: #5c5edc;
   font-weight: 400;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EC4E3B;
+  color: #ffdd00;
 }
 
 a:hover, a:active, a:focus, a:visited  {
@@ -132,7 +132,7 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #49B1F7;
+  border-bottom: 1px dashed #5c5edc;
 }
 
 dt {
@@ -167,7 +167,7 @@ section #title h1 {
 }
 
 section #title p {
-  color: #B3D1F0;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 18px;
@@ -207,7 +207,7 @@ footer .right{
 }
 
 .resume p{
-  mfont-size: 15px;
+  font-size: 15px;
   line-height: 24px;
   margin: 0 0 10px;
   font-family: 'Open Sans', sans-serif;
@@ -247,7 +247,7 @@ footer .right{
 #title #sitename,
 .resume span,
 .resume h2 {
-  color: #EC4E3B;
+  color: #5c5edc;
 }
 
 #sitename{
