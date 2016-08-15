@@ -4,9 +4,9 @@ body {
   padding: 0px 0 20px 0px;
   margin: 0px;
   font: 14px/1.5 'Open Sans', sans-serif;
-  color: #fff ;
+  color: #a3bfc6 ;
   font-weight: normal;
-  background: #2a2b30;
+  background: #222a30;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #5c5edc;
+  color: #26ad18;
   margin: 0 0 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -50,13 +50,13 @@ h3 {
 }
 
 a {
-  color: #5c5edc;
+  color: #26ad18;
   font-weight: 400;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffdd00;
+  color: #5c5edc;
 }
 
 a:hover, a:active, a:focus, a:visited  {
@@ -132,7 +132,7 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #5c5edc;
+  border-bottom: 1px dashed #26ad18;
 }
 
 dt {
@@ -247,7 +247,7 @@ footer .right{
 #title #sitename,
 .resume span,
 .resume h2 {
-  color: #5c5edc;
+  color: #26ad18;
 }
 
 #sitename{
@@ -255,7 +255,7 @@ footer .right{
 }
 
 a#sitename::hover {
-  color: #ffdd00;
+  color: #26ad18;
 }
 
 mark, .mark {
