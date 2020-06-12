@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import AnimatedLink, { SVGAnimatedLink } from '../components/animatedLink'
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
+        </p>
+        <p className="description">
+          <SVGAnimatedLink />
         </p>
 
         <div className="grid">
